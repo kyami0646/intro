@@ -8,9 +8,9 @@ export const Header: VFC = memo(() => {
     const { isOpen, onOpen, onClose } = useDisclosure();
     const navigate = useNavigate();
 
-    const onClickTop = useCallback(() => navigate("/"), [navigate]);
-    const onClickAbout = useCallback(() => navigate("/about"), [navigate]);
-    const onClickworks = useCallback(() => navigate("/works"), [navigate]);
+    const onClickTop = useCallback(() => navigate(process.env.PUBLIC_URL), [navigate]);
+    const onClickAbout = useCallback(() => navigate(process.env.PUBLIC_URL + "/about"), [navigate]);
+    const onClickworks = useCallback(() => navigate(process.env.PUBLIC_URL + "/works"), [navigate]);
 
     return (
         <>

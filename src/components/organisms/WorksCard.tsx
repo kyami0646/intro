@@ -20,7 +20,7 @@ export const WorksCard: VFC<Props> = memo((props) => {
     }
     return (
         <Box w="sm" minW="xs"  maxW="sm"  bg="white" borderRadius="lg" overflow="hidden">
-                <Image maxH="70vh" src={imageUrl} alt={title} />
+                <Image maxH="70vh" src={process.env.PUBLIC_URL + imageUrl} alt={title} />
                 <Text color="black" pb={2} fontWeight="bold" textAlign="center"  pt={[3]}>{title}</Text>
                     {techItems}
                     <a href={link}><i style={iStyle} className="devicon-github-original colored"></i></a>
