@@ -11,7 +11,7 @@ export const About: VFC = memo(() => {
                     <Center >
                         <Avatar size="2xl"></Avatar>
                     </Center>
-                    <Text textAlign="center" w={{md:"55%"}} m={8} pb={6}>大学三年です。大学は体育系の学部に所属しています。
+                    <Text textAlign="center" w={{md:"55%"}} m={8} pb={6}>上川龍太です。大学は体育系の学部に所属しています。
                     高校時代は野球部に所属していました。野球は物心つく前からやっていました。
                     しかし、2年生の冬の頃にプログラミングに出会いました。そこから私のエンジニアとしてのキャリアが始まりました??
                     </Text>
